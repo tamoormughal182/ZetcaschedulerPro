@@ -23,7 +23,7 @@ namespace scheduler
         //static void Main(string[] args)
         static async Task Main(string[] args)
         {
-            Chilkat.Global glob = new Chilkat.Global();
+            Chilkat.Global glob = new Chilkat.Global(); 
            // bool success = glob.UnlockBundle("wJIkj3.CBX1128_vdRDVuAfDiE8");
             bool success = glob.UnlockBundle("Anything for 30-day trial");
             if (success != true)
